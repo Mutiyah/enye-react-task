@@ -13,7 +13,7 @@ return (
     <ul id="pagination"> <b>Pages:</b>
         {pageNumbers.map(number => (
             <li key={number}>
-                <a href="!#" onClick={() => paginate(number)}> {number}</a>
+                <a href="#" onClick={() => paginate(number)}> {number}</a>
             </li>
         ))}
     </ul>
