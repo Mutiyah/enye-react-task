@@ -1,9 +1,13 @@
+
+
+
+
+
 .App {
   text-align: center;
 }
 
 .background{
-  /* background-image: linear-gradient(to top right, #000 , #ccc); */
   width: 100%;
   height: 100vh;
   padding: 15px 15px;
@@ -67,7 +71,7 @@ table{
 
 .table-striped tr:nth-child(even) {
   background-color: #e8e7e6;
-}
+} 
 
 /* .......................
     Search & filter styles
@@ -78,14 +82,16 @@ table{
   margin: auto;
   height: auto;
   max-width: 90%;
-  background-color: #ccc;
-  /* padding-bottom: 40px; */
+  background-color:#ccc;
+  /* padding: 100px; */
 }
 
 .searchInputBox{
   width: 30vw;
   height: 100%;
   height: 40px;
+  box-shadow: 2px 5px 6px #000;
+  margin-bottom: 5px;
 }
 
 .input input{
@@ -103,10 +109,13 @@ table{
   text-align: left;
   border: none;
   cursor: pointer;
+  box-shadow: 0px 5px 6px #000;
+  margin-bottom: 5px;
 }
 
 .dropbtn2 {
   background-color: rgb(87, 85, 85);
+  margin-bottom: 7px;
 }
 
 .dropdown {
@@ -126,6 +135,7 @@ table{
 .dropdownOptions button{
   width: 100%;
   text-align: left;
+  font-size: 18px;
 }
 .dropdown-content a {
   color: black;
