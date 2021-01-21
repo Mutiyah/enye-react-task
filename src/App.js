@@ -96,7 +96,7 @@ const paginate = pageNumber =>{
   <span className="input">
       <GenderFilter tableData={data} onColSearchUpdate={updateFilterBy } />           
           <PaymentMethodFilter tableData={data} onColSearchUpdate2={fiterByPaymentMethod}/>
-      <input className="searchInputBox"  type="text" placeholder="Search name, email, payment-method..." value={q} onChange={(e) => updateSearchResult(e.target.value)} />
+      <input className="searchInputBox"  type="text" placeholder="Search name, email, payment..." value={q} onChange={(e) => updateSearchResult(e.target.value)} />
   </span>
       <Datatable data={tableData}/>
       <Pagination profilesPerPage={profilesPerPage}  totalProfiles={data.length} paginate={paginate} />
